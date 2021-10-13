@@ -1,0 +1,230 @@
+body {
+    margin: 0px;
+    background-color: #eeeee6;
+}
+header {
+    display: block;
+    padding: 10px;
+    margin: 5% 1% 5px 1.5%;
+    height: 60px;
+    background-color: #d02c30;
+    font-family:"Montserrat", sans-serif;
+}
+footer {
+    padding: 10px;
+    margin: 0 1.5% 2% 1.5%;
+    height: 10%;
+    background-color: #76777b;
+    /*background-image: url("");*/
+    display: block;
+    font-family: sans-serif;
+}
+nav.left {
+    float:left;
+}
+nav.right {
+    float: right;
+}
+nav.menu {
+    padding: 0;
+    height: 100%;
+    margin: 0px 2px;
+    display: inline-block;
+    letter-spacing: -0.025em;
+    position: relative;
+}
+nav.menu a {
+    display: inline-block;
+    padding: 15px;
+    top: 50%;
+    margin: 0px;
+    max-height: 100%;
+    font-size: 1.4rem;
+    letter-spacing: .05em;
+    /*text-transform: uppercase; */
+    text-shadow: 0 2px 0 #b1001a;
+    color: white;
+    transition: color .1s ease .1s, text-shadow .1s ease .1s;
+    text-decoration: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+nav.left a:first-of-type {
+    margin-left: 165px;
+}
+nav.menu a:hover {
+    color: #d02c30;/*#a6a6a6;*/
+    text-shadow: none;
+    background-color: white;
+    transition: background-color .1s ease .1s, text-shadow .1s ease .1s;
+}
+img.logo {
+    background-size: 120px 120px;
+    position: absolute;
+    top: -45%;
+    left: 0%;
+    margin: 0 10px 0 20px;
+    height: 120px;
+    overflow: visible;
+    width: 120px !important;
+    white-space: nowrap;
+    filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.2));
+    z-index: 10;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+section.greeting {
+    text-align: center;
+    padding: 0;
+}
+h1.greetingh1 {
+    padding: 0;
+    margin: 0;
+}
+div.warning {
+    padding: 20px 0;
+    margin: 0.5% 1.5% 1% 1.5%;
+    background-color: #f19933;
+    color: #2d2a26;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+}
+h1, h3 {
+    font-family: "Montserrat", sans-serif;
+}
+div.flexmenu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+div.menu_item {
+    width: 28%;
+    display: inline-block;
+    padding: 30px;
+}
+div.menu a {
+    text-decoration: none;
+}
+div.menu_item a div img {
+    object-fit: cover;
+    height:100%;
+    overflow: hidden;
+}
+div.menu_item a div {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+div.menu_item a div h4 {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    /* color: rgb(112, 103, 103); */
+    text-shadow:0 2px 0 rgb(0 0 0 / 10%);
+    background-color: transparent;
+    letter-spacing: 0em;
+}
+div.flexads {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+div.ad {
+    width: 38%;
+    padding: 10px;
+}
+div.ad img {
+    display: inline-block;
+    width: 100%;
+}
+section.listads {
+    margin: auto;
+    width: 95%;
+}
+div.submenu_item  {
+    width: 90%;
+    padding: 10px;
+}
+div.submenu_item div.smimg {
+    width:30%;
+    display: inline-block;
+    flex: 1;
+}
+div.submenu_item div.smtxt {
+    width: 60%;
+    display: inline-block;
+    flex: 2;
+    vertical-align: top;
+    margin-left: 10px;
+}
+div.submenu_item div.smtxt h1 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    margin: 10px 2px;
+}
+div.submenu_item div.smtxt p {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 25px;
+    margin: 0;
+    padding: 5px;
+}
+div.submenu_item div.smimg img {
+    display: inline-block;
+    width: 100%;
+    margin: 2px;
+    padding: 0;
+}
+div.resercn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+div.formcn {
+    width: 64%;
+    display: inline-block;
+}
+div.timecn {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+div.resercn h4, div.resercn label.bsc {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+div.resercn input, div.resercn textarea {
+    margin: 10px;
+    width: 300px;
+}
+div.resercn input[type=checkbox] {
+    width: auto;
+}
+div.mapcn {
+    width: 60%;
+    display: inline-block;
+}
+div.callcn {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
